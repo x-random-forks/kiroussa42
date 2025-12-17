@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: app-p3
-        image: wil42/playground:v1 # edit tag to test argoCD
+        image: wil42/playground:v2 # edit tag to test argoCD
         ports:
         - containerPort: 8888
 ---
